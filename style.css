@@ -1,0 +1,31 @@
+.text-uppercase {
+    padding-top: 30px;
+    font-family: cursive;
+}
+.row {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rounded-circle {
+    height: 400px;
+    width: fit-content;
+}
+#aboutText {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.tab-content {
+    color: black;
+}
+.container-fluid {
+    background: whitesmoke;
+}
+#aboutText {
+    text-align: justify;
+}
+#face {
+    text-align: justify;
+}
