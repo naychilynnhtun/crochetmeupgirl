@@ -22,7 +22,7 @@
 }
 .container-fluid {
     background: whitesmoke;
-    width: fit-content;
+    width: 100%;
 }
 #aboutText {
     text-align: justify;
