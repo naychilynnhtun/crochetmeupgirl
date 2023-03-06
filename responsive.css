@@ -1,20 +1,65 @@
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 992px) {
+/* adjust column width for mobile screens */
+@media (max-width: 767px) {
     .column {
-      width: 50%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .row {
+      flex-direction: column;
+      align-items: center;
     }
   }
   
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
+  /* adjust size of images for mobile screens */
+  @media (max-width: 575px) {
+    .carousel-item img {
       width: 100%;
+      height: auto;
     }
   }
+  
+  /* adjust size of headings and text for mobile screens */
+  @media (max-width: 575px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+/* adjust size of headings and text for mobile screens */
+@media (max-width: 575px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* adjust size of images for mobile screens */
+  @media (max-width: 767px) {
+    #aboutText {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .flex-fill img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* adjust size of contact info for mobile screens */
+  @media (max-width: 575px) {
+    #face p {
+      font-size: 0.8rem;
+    }
+  }
+
   
